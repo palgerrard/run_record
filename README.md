@@ -15,4 +15,25 @@
   - 个人打卡录入 P0
   - 接入微信公众账号 P0
 
-## 该系统采用node+express+mysql实现，pm2做进程管理
+## 代码说明
+该系统采用node+express+mysql实现，pm2做进程管理
+
+工作区代码路径： 
+/alidata/www/node_service/run_record
+
+进程管理： 
+cd /alidata/www/node_service/run_record
+启动： pm2 start pm2.json
+关闭： pm2 kill
+查看： pm2 list
+重启:  pm2 reload run_record
+日志： pm2 logs
+ 
+ftp:
+
+    "host": "*保密*",
+    "user": "www",
+    "password": "*保密*",
+    "port": "22",
+
+    "remote_path": "/alidata/www/node_service/run_record/",
