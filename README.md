@@ -1,4 +1,4 @@
-# run_record
+# run_record 晨炮团打卡系统
 
 ## 访问地址：http://www.chenpaotuan.com/run_record/
 
@@ -15,4 +15,4 @@
   - 个人打卡录入 P0
   - 接入微信公众账号 P0
 
-## 该系统采用node+express+mysql实现
+## 该系统采用node+express+mysql实现，pm2做进程管理
