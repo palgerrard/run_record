@@ -22,18 +22,17 @@
     /alidata/www/node_service/run_record
 
 - 进程管理： 
-    cd /alidata/www/node_service/run_record
-    启动： pm2 start pm2.json
-    关闭： pm2 kill
-    查看： pm2 list
-    重启:  pm2 reload run_record
-    日志： pm2 logs
+    - cd /alidata/www/node_service/run_record
+    - 启动： pm2 start pm2.json
+    - 关闭： pm2 kill
+    - 查看： pm2 list
+    - 重启:  pm2 reload run_record
+    - 日志： pm2 logs
  
 - ftp:
 
-    "host": "*保密*",
-    "user": "www",
-    "password": "*保密*",
-    "port": "22",
-
-    "remote_path": "/alidata/www/node_service/run_record/",
+    - "host": "*保密*",
+    - "user": "www",
+    - "password": "*保密*",
+    - "port": "22",
+    - "remote_path": "/alidata/www/node_service/run_record/",
