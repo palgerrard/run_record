@@ -1,5 +1,13 @@
 # run_record 晨炮团打卡系统
 
+## 2016/09/11 更新
+ - 请假管理 P1
+ - 个人打卡录入 P0
+ - 接入微信公众账号 P0
+ 
+ 已完成
+ 
+
 ## 访问地址：http://www.chenpaotuan.com/run_record/
 
 ## 目前实现的功能
